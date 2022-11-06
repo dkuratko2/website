@@ -1,0 +1,47 @@
+
+.header1{
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 50px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    text-align: center;
+    text-shadow: rgb(255, 255, 255) 2px 2px;
+    padding: 40px;
+}
+#google{
+    text-decoration: none;
+    color: inherit 
+}
+
+#grad1 {
+    height:auto;
+    border-radius: 25px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(223, 115, 199) , rgb(132, 230, 181));
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: red;
+    
+  }
+
+  .table td:hover, .table th:hover{
+    background-color: rgb(189, 189, 189,.5);
+  }
+ 
+#pumped{
+    text-decoration: none;
+    color:black;
+}
+ 
+#pumped:hover{
+    color: red;
+}
+
+p{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: rgb(69, 151, 172);
+}
